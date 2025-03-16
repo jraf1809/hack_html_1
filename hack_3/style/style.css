@@ -1,0 +1,51 @@
+:root {
+  --bg-blue: #93B5C9;
+  --bg-wine: #AB2849;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  padding: 0 30% 0 30%;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  background-color: var(--bg-blue);
+}
+
+.main {
+  width: 100%;
+  height: 140px;
+  background-color: var(--bg-wine);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 10% 0 10%;
+}
+
+.box {
+  background-color: var(--bg-wine);
+  width: 100%; 
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.row {
+  display: flex; 
+  flex-direction: row; 
+  width: 100%; 
+  gap: 2px; 
+  margin: 10px ;
+}
+
+footer {
+  width: 100%;
+  height: 70px;
+  background-color: var(--bg-wine);
+}

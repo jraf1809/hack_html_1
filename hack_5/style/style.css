@@ -1,0 +1,141 @@
+:root{
+    --primary-green: #00BF63;
+    --green-circle: #7ED957;
+    --white: #EEEEEE;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: arimo, roboto;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    text-transform: uppercase;
+    background-color: white;
+    margin: 0;
+    padding: 30px 60px;
+}
+
+header h2{
+    display: flex;
+    margin: 20px;
+    
+}
+
+.online{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.circle{
+    background-color: var(--green-circle);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+    
+    
+}
+
+.banner{
+    position: relative;
+    display: flex;
+}
+
+.banner img{
+    width: 100%;
+    height: auto;
+}
+
+.texbarnner{
+    position: absolute; 
+    color: var(--white); 
+    width: 60%;
+    padding: 10% 10%; 
+    
+}
+
+.texbarnner h2{
+    margin: 10px;
+    font-size: 50px;
+    background-color: var(--primary-green);
+    text-transform: uppercase;
+}
+
+.texbarnner p{
+    background-color: black;
+    width: 50%;
+    font-size: 20px;
+}
+
+.texbarnner h2:first-child{
+    width: 40%;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    padding: 0 60px;
+}
+
+main section h2{
+    text-transform: uppercase;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.myService{
+    font-size: 23px;
+    margin: 0;
+}
+
+main section div img{
+  
+    width: 50%;
+}
+
+.services{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.solution{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+}
+
+.solution h3{
+    text-transform: uppercase;
+    margin: 0;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--primary-green);
+    color: var(--white);
+    margin: 10px 20px;
+    font-size: 25px;
+    
+    
+}
+
+a{
+    color: var(--white);
+}
